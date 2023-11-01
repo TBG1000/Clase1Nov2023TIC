@@ -8,4 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 3 impresiones
-      run: echo "Impresión 1", echo "Impresión 2", echo "Impresión 3"
+      run: |
+        echo "Impresión 1"
+        echo "Impresión 2"
+        echo "Impresión 3"

@@ -3,7 +3,7 @@ on: push
 jobs:
   build-node:
     runs-on: ubuntu-latest
-    container: node-16
+    container: node-18
     steps:
       - run: node nombre.js
       - run: node --version

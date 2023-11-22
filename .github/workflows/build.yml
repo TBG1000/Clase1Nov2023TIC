@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
     steps:
-      - run: node ./nombre.js
+      - run: node ../nombre.js
       - run: node --version
       - uses: actions/checkout@v3
-      - run: node ./expediente.js
+      - run: node ../expediente.js

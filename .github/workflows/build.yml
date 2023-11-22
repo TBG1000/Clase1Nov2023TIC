@@ -1,0 +1,10 @@
+name: Examen 3 Marco Albanese
+on: push
+jobs:
+  build-node:
+    runs-on: ubuntu-latest
+    container: node-16
+    steps:
+      - run: node nombre.js
+      - run: node --version
+      - run: node expediente.js
